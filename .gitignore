@@ -1,0 +1,20 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/DurableFunciontions/FileContentIndex
+/.vs
+/Application.Services/bin/Debug/net8.0
+/Application.Services/obj
+/Domain.Entities/bin/Debug/net8.0
+/Domain.Entities/obj
+/Domain.Interfaces/bin/Debug/net8.0
+/Domain.Interfaces/obj
+/Domain.Shared/bin/Debug/net8.0
+/Domain.Shared/obj
+/HttpDurableFunction/Properties/launchSettings.json
+/Infrastructure.Repositories/bin/Debug/net8.0
+/Infrastructure.Repositories/obj
+/OrderApi/bin/Debug/net8.0
+/OrderApi/obj
+/OrderApi/Properties/launchSettings.json
