@@ -19,9 +19,11 @@ Após o processo de validação/aprovação da Function, ao enviar uma mensagem 
 
 # 🔧 Como executar o projeto
 
-Para executar o projeto, após baixar o código do Git e abrir a solution no Visual Studio (utilizado Community 2022).
+Para executar o projeto, após baixar o código do Git e abrir a solution no Visual Studio (utilizado Community 2022) desejada.
+- AzDurableFunctins.sln (solução com Azure Functions e Domain)
+- DurableFunctionsApi.sln (solução com WebApi, Domain e demais projetos)
 
-No Visual Studio, selecione a inicialização de vários projetos e marque a ação de iniciar para:
+No Visual Studio, selecione a inicialização do projetos desejado
 - HttpDurableFuntion
 - OrderApi
 
