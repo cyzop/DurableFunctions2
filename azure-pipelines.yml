@@ -36,5 +36,12 @@ steps:
 - task: PublishBuildArtifacts@1
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
-    ArtifactName: 'drop'
+    ArtifactName: 'webapp'
     publishLocation: 'Container'
+    
+- task: ExtractFiles@1
+  inputs:
+    archiveFilePatterns: '$(Pipeline.Workspace)/webapp.zip'
+    destinationFolder: '$(Pipeline.Workspace)/extracted'
+    cleanDestinationFolder: true
+
