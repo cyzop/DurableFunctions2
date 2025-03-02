@@ -64,5 +64,15 @@ namespace OrderApi.Controllers
             else
                 return NoContent();
         }
+
+        [HttpGet("/{id}")]
+        public async Task<IActionResult> GetOrderById(string id)
+        {
+            var order = await _orderService.GetOrderByIdAsync(id);
+            if (order !=null)
+                return Ok(new OrderResponse(order.Id, order.Status, order.ProductName, order.Quantity, order.Price));
+            else
+                return NoContent();
+        }
     }
 }

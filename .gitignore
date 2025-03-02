@@ -20,3 +20,10 @@
 /OrderApi/Properties/launchSettings.json
 /AzDurableFunctions
 /Domain.Entities/bin/Release/net8.0
+/HttpDurableFunction/Properties/PublishProfiles
+/HttpDurableFunction/Properties/ServiceDependencies
+/HttpDurableFunction/Properties/serviceDependencies.azuredurablefunctionorder - Zip Deploy.json
+/HttpDurableFunction/Properties/serviceDependencies.json
+/HttpDurableFunction/Properties/serviceDependencies.rsfmorderqueue - Zip Deploy.json
+/HttpDurableFunction.zip
+/HttpDurableFunction/Properties/serviceDependencies.json
