@@ -10,7 +10,7 @@ pool:
   vmImage: 'windows-latest'
 
 variables:
-  solution: '**/*.sln'
+  solution: '**/OrderApi.csproj'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
 
