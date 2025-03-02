@@ -11,17 +11,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presenter", "Presenter", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{3E8E8B4C-A600-4590-AAFE-13E9BC300824}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Entities", "Domain.Entities\Domain.Entities.csproj", "{DEBCFABE-EE63-421A-BD37-027730E7C50C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.Entities", "Domain.Entities\Domain.Entities.csproj", "{DEBCFABE-EE63-421A-BD37-027730E7C50C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Interfaces", "Domain.Interfaces\Domain.Interfaces.csproj", "{61EFD622-FA32-48FB-9B3A-AD9091321CE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.Interfaces", "Domain.Interfaces\Domain.Interfaces.csproj", "{61EFD622-FA32-48FB-9B3A-AD9091321CE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Services", "Application.Services\Application.Services.csproj", "{51784B60-1A21-4882-B9B7-1594EC04A47C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.Services", "Application.Services\Application.Services.csproj", "{51784B60-1A21-4882-B9B7-1594EC04A47C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Repositories", "Infrastructure.Repositories\Infrastructure.Repositories.csproj", "{0F99E059-51BB-42E4-BBAC-DE6B4BEC3AB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.Repositories", "Infrastructure.Repositories\Infrastructure.Repositories.csproj", "{0F99E059-51BB-42E4-BBAC-DE6B4BEC3AB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderApi", "OrderApi\OrderApi.csproj", "{D4F92274-C768-43A0-9EF1-877B947DF07E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpDurableFunction", "HttpDurableFunction\HttpDurableFunction.csproj", "{7C140DA9-521A-401C-A674-DEA3E8388C65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderApi", "OrderApi\OrderApi.csproj", "{D4F92274-C768-43A0-9EF1-877B947DF07E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,10 +47,6 @@ Global
 		{D4F92274-C768-43A0-9EF1-877B947DF07E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4F92274-C768-43A0-9EF1-877B947DF07E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4F92274-C768-43A0-9EF1-877B947DF07E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7C140DA9-521A-401C-A674-DEA3E8388C65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7C140DA9-521A-401C-A674-DEA3E8388C65}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7C140DA9-521A-401C-A674-DEA3E8388C65}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7C140DA9-521A-401C-A674-DEA3E8388C65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

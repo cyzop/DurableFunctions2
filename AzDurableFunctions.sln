@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpDurableFunction", "HttpDurableFunction\HttpDurableFunction.csproj", "{3BD20F41-68FF-4C0D-943E-2DCFBCB55CA7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.Entities", "Domain.Entities\Domain.Entities.csproj", "{4C4F76BF-E9DF-4AF3-A023-793681D2C527}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BD20F41-68FF-4C0D-943E-2DCFBCB55CA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BD20F41-68FF-4C0D-943E-2DCFBCB55CA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BD20F41-68FF-4C0D-943E-2DCFBCB55CA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BD20F41-68FF-4C0D-943E-2DCFBCB55CA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C4F76BF-E9DF-4AF3-A023-793681D2C527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C4F76BF-E9DF-4AF3-A023-793681D2C527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C4F76BF-E9DF-4AF3-A023-793681D2C527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C4F76BF-E9DF-4AF3-A023-793681D2C527}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9EFA8C31-9CB8-4B14-80CC-FEA0D85C2E3F}
+	EndGlobalSection
+EndGlobal

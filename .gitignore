@@ -18,3 +18,5 @@
 /OrderApi/bin/Debug/net8.0
 /OrderApi/obj
 /OrderApi/Properties/launchSettings.json
+/AzDurableFunctions
+/Domain.Entities/bin/Release/net8.0
